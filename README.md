@@ -5,12 +5,14 @@
 ## 知识地图
 
 ### 一、基础概念
+- [工作流基本原理](01-basics/workflow-fundamentals.md) — 节点/连线机制、五大基础节点类别、三种基本工作流模式
 - 节点(Node)与连线(Link)机制
 - 工作流(Workflow)概念
 - 模型类型（Checkpoint / LoRA / VAE / CLIP）
 - ComfyUI 与 A1111 WebUI 的区别
 
 ### 二、核心节点
+- [KSampler 采样器详解](02-core-nodes/ksampler-details.md) — 参数说明、采样器选择指南、调度器组合推荐
 - 加载器类（Load Checkpoint / LoRA / VAE）
 - 采样器类（KSampler 及参数详解）
 - 编解码类（VAE Encode / Decode）
@@ -18,26 +20,24 @@
 - 图像后处理（Upscale / Save Image）
 
 ### 三、图像生成流程
+- [图像放大方案对比](03-t2i-flow/upscale-methods.md) — 各类放大算法特点、组合策略、适用场景
 - 文生图(T2I)标准流程
 - 图生图(I2I)与重绘
-- 图像放大(Upscale)方案对比
 - 批量生成与种子控制
 - 提示词工程（正向/负向/权重）
 
 ### 四、进阶技巧（图像）
-- ControlNet 全家族应用
+- [ControlNet 基础使用教程](04-advanced-image/controlnet-basics.md) — 概念、安装、标准工作流、多ControlNet叠加、实用技巧
 - IPAdapter / 风格迁移
 - 区域控制(Regional Prompter)
 - 遮罩与局部重绘(Inpaint)
-- 图像融合与合成
 - LoRA 叠加与权重混调
 
 ### 五、视频生成
-- AnimateDiff 基础与工作流
+- [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md) — Text2Vid/Vid2Vid工作流、安装、核心节点、进阶技巧
 - AnimateDiff 进阶（运动模块 / LoRA / CFG）
 - SVD(Stable Video Diffusion) 工作流
 - 视频帧处理（帧率 / 插帧 / 抽帧）
-- 视频生成分辨率与时长控制
 - 首尾帧控制与关键帧动画
 - Deforum 风格动态视频
 - 视频后处理（放大 / 补帧 / 调色）
@@ -67,6 +67,18 @@
 
 ---
 
+## 已收录笔记索引
+
+| 分类 | 笔记 | 来源数 |
+|------|------|--------|
+| 01-basics | 工作流基本原理 | 4 |
+| 02-core-nodes | KSampler 采样器详解 | 2 |
+| 03-t2i-flow | 图像放大方案对比 | 1 |
+| 04-advanced-image | ControlNet 基础使用教程 | 4 |
+| 05-video-generation | AnimateDiff 视频生成入门 | 1 |
+
+---
+
 ## 使用方式
 
 1. **收集**：看到好文章，发链接给我，我来抓取归档到 `inbox/`
@@ -83,3 +95,11 @@
   # 标题
   > 来源：[文章名](链接) · 日期
   ```
+
+## 去重规则
+
+- **链接重复**：搜索已有 URL，不重复存
+- **内容重复无新信息**：跳过
+- **内容有部分新信息**：合并进已有笔记，追加来源
+- **角度不同各有价值**：各自保留，互相引用
+- **内容冲突**：标注冲突，留给用户判断
