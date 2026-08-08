@@ -6,6 +6,9 @@
 
 AnimateDiff 是 ComfyUI 中生成 AI 视频的强大工具。它在 Stable Diffusion 基础上添加运动模块，让静态图像生成扩展为视频生成。
 
+> 📷 [图：AnimateDiff 官方效果展示，展示从文本生成的人物动画片段]
+> 来源：https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+
 ## 两种主要工作流
 
 ### Text2Vid（文生视频）
@@ -16,6 +19,9 @@ Checkpoint加载器 → AnimateDiff加载器 → CLIP文本编码 → K采样器
                                                            VAE解码 → 视频合成
 ```
 
+> 📷 [图：基本 Txt2Vid 工作流截图，展示从文本到视频的完整节点连接]
+> 来源：https://www.reddit.com/r/StableDiffusion/comments/16w4zcc/guide_comfyui_animatediff_guideworkflows/
+
 ### Vid2Vid（视频生视频）
 使用 ControlNet 从现有视频中提取运动并指导转换：
 ```
@@ -23,6 +29,12 @@ Checkpoint加载器 → AnimateDiff加载器 → CLIP文本编码 → K采样器
                                         ↓
                 AnimateDiff加载器 → K采样器 → VAE解码 → 视频合成
 ```
+
+> 📷 [图：基本 Vid2Vid 工作流截图，展示视频输入帧拆分→ControlNet控制→生成的完整流程]
+> 来源：https://www.reddit.com/r/StableDiffusion/comments/16w4zcc/guide_comfyui_animatediff_guideworkflows/
+
+> 📷 [图：完整的 Video-to-Animation 管线图，展示帧提取→遮罩生成→IPAdapter→AnimateDiff→ControlNet→放大→插帧→最终视频]
+> 来源：https://comfyui.org/en/video-to-animation-with-ai
 
 ## 系统要求
 
@@ -70,6 +82,9 @@ Checkpoint加载器 → AnimateDiff加载器 → CLIP文本编码 → K采样器
 3. **基本 Txt2Vid**：纯文本生成视频
 4. **带提示调度的 Vid2Vid**：视频中场景随时间变化
 5. **带提示调度的 Txt2Vid**：文本生成 + 场景变化
+
+> 📷 [图：五种工作流模式对比概览，每种模式的节点连接差异一目了然]
+> 来源：https://www.reddit.com/r/StableDiffusion/comments/16w4zcc/guide_comfyui_animatediff_guideworkflows/
 
 ## 进阶技巧
 

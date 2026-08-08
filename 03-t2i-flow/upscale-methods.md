@@ -18,6 +18,9 @@
 | ScuNET PSNR | 深度学习 | 均方误差训练 | 客观质量提升 |
 | SwinIR_4x | 深度学习 | Swin Transformer | 通用超分 |
 
+> 📷 [图：各放大算法效果对比，从左到右依次展示 None/Lanczos/ESRGAN/R-ESRGAN 4x+/4x-UltraSharp 的放大效果差异]
+> 来源：https://www.51zxw.net/TechArticleDetails.aspx?zid=129&id=2756
+
 ## Upscaler1 + Upscaler2 组合策略
 
 Upscaler2 用于避免 Upscaler1 过度处理（如磨皮太严重）。可见度参数 0=不用，1=完全用 Upscaler2。

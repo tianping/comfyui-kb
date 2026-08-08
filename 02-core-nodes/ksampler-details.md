@@ -6,6 +6,9 @@
 
 KSampler 是 ComfyUI 中最核心的节点——它是"引擎"，所有工作流都围绕它进行扩散去噪。它对潜空间图像执行多步去噪采样，结合正向和负向条件，使用指定的采样算法和调度器生成高质量 Latent 图像。
 
+> 📷 [图：KSampler 节点界面，展示 model/seed/steps/cfg/sampler_name/scheduler/positive/negative/latent_image/denoise 全部参数]
+> 来源：https://docs.comfy.org/built-in-nodes/sampling/ksampler
+
 ## 参数详解
 
 | 参数 | 类型 | 默认值 | 说明 |
@@ -34,6 +37,9 @@ KSampler 是 ComfyUI 中最核心的节点——它是"引擎"，所有工作流
 2. **DPM类**：所有 dpm 开头的
 3. **其他类**：ddim、uni_pc、lms 等
 
+> 📷 [图：XY图表对比测试，横坐标步数5-33步，纵坐标各采样器，直观展示不同采样器在不同步数下的收敛效果]
+> 来源：https://www.51zxw.net/TechArticleDetails.aspx?zid=129&id=2756
+
 ### 关键发现
 - 名字以 `a` 或 `sde` 结尾的是不收敛的祖先采样器，每步结果都不同
 - euler、heun、ddim 在第 9 步就出图，简单图又快又好
@@ -56,6 +62,9 @@ KSampler 是 ComfyUI 中最核心的节点——它是"引擎"，所有工作流
 - **ddim_uniform**：随步数构图会变化，随机性强
 - **exponential**：通常用于扩图放大场景
 
+> 📷 [图：Flux 各种采样器+调度器组合测试表格，绿色=可用，红色=不可用]
+> 来源：https://www.51zxw.net/TechArticleDetails.aspx?zid=129&id=2756
+
 ## 推荐的采样器+调度器组合
 
 | 组合 | 特点 | 生成时间(参考) |
@@ -72,6 +81,9 @@ KSampler 是 ComfyUI 中最核心的节点——它是"引擎"，所有工作流
 - Flux 模型可能用 CFG=0 + 独立的 Flux Guidance 节点
 - 过高会导致画面"烧焦"、色彩过饱和
 - 过低会导致不贴合提示词
+
+> 📷 [图：CFG 从低到高对比图，展示过低(不贴合提示词)→适中→过高(烧焦/过饱和)的视觉差异]
+> 来源：https://www.youtube.com/watch?v=v88YOP3DdTw
 
 ## 相关笔记
 > 相关笔记：[工作流基本原理](../01-basics/workflow-fundamentals.md)

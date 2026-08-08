@@ -9,6 +9,9 @@ ComfyUI 是 Stable Diffusion 的节点式图形界面。与 A1111 WebUI 相比�
 - **WebUI**：开箱即用，功能齐全，但可定制性差，作品不易复现
 - **ComfyUI**：可定制性强，工作流可复现可分享，自动化程度高，但上手门槛较高
 
+> 📷 [图：ComfyUI 默认界面，左侧节点库面板 + 中央画布 + 右侧生成历史]
+> 来源：https://zhuanlan.zhihu.com/p/21591679893
+
 ## 工作流的核心组成
 
 工作流由**节点(Node)**和**连线(Link)**组成。节点是矩形块，执行某种任务；连线连接节点的输入和输出，共同完成 AI 绘画任务。
@@ -17,6 +20,9 @@ ComfyUI 是 Stable Diffusion 的节点式图形界面。与 A1111 WebUI 相比�
 - **输入(Input)**：左侧接入点，接收上游数据
 - **输出(Output)**：右侧接出点，向下游传递结果
 - **参数(Parameter)**：节点上的可调设置项
+
+> 📷 [图：节点结构示意，展示一个 Checkpoint 加载器节点的输入/输出/参数三部分]
+> 来源：https://zhuanlan.zhihu.com/p/21439609297
 
 ## 五大基础节点类别
 
@@ -65,6 +71,8 @@ Checkpoint加载器 → CLIP文本编码 → K采样器 ← 空Latent图像
                               VAE解码 → 保存图像
 ```
 
+> 🔧 工作流示例：ComfyUI 默认启动即加载此工作流，可直接在 ComfyUI 中体验
+
 ### 图生图(I2I)
 与文生图基本一致，区别是 Latent 不为空，而是用 VAE 编码器将参考图编码后传入。denoise 参数此时相当于重绘幅度。
 
@@ -75,12 +83,18 @@ Checkpoint加载器 → CLIP文本编码 → K采样器 ← 空Latent图像
 - 进阶方案：Segment Anything + BrushNet（效果更好）
 - 高效方案：Impact Pack（裁剪局部区域重绘，速度快融合好）
 
+> 📷 [图：遮罩编辑器界面，左下角工具条含清除/画笔宽度/透明度/颜色，右下角保存按钮]
+> 来源：https://www.cnblogs.com/joy99/p/18402051
+
 ## 三大空间概念
 
 - **潜空间(Latent Space)**：图像以压缩形式存在的空间，K采样器在此工作
 - **像素空间(Pixel Space)**：我们看到的实际图像
 - **条件空间(Conditioning)**：CLIP 编码后的提示词条件
 - Checkpoint 加载器是独立准备节点，为三大空间提供计算基础
+
+> 📷 [图：WebUI 上的 ControlNet 面板示意，展示加载图像/选择预处理器/加载模型/控制权重等操作]
+> 来源：https://www.uisdc.com/stable-diffusion-comfyui-8
 
 ## 相关节点
 > 相关笔记：[KSampler 采样器详解](../02-core-nodes/ksampler-details.md) · [ControlNet 使用教程](../04-advanced-image/controlnet-basics.md)
