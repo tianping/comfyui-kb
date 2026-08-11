@@ -46,6 +46,7 @@
 - 视频生成常见问题（闪烁 / 抖动 / 画质崩坏）
 
 ### 六、模型与资源管理
+- [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md) — 从装环境到出图零代码，512张图10小时训练，数据集决定上限
 - 模型下载与存放规范
 - LoRA 训练入门
 - 模型合并(Model Merge)
@@ -78,6 +79,7 @@
 | 03-t2i-flow | AI角色资产设计标准化提示词（5套风格模板） | 1 |
 | 04-advanced-image | ControlNet 基础使用教程 | 4 |
 | 05-video-generation | AnimateDiff 视频生成入门 | 1 |
+| 06-models | Hermes全自动LoRA训练实战 | 1 |
 
 ---
 

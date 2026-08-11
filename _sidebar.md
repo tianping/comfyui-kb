@@ -16,4 +16,7 @@
 * 五、视频生成
   * [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md)
 
+* 六、模型与资源管理
+  * [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md)
+
 * [inbox（待整理）](inbox/)
