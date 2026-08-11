@@ -8,6 +8,7 @@
 
 * 三、图像生成流程
   * [图像放大方案对比](03-t2i-flow/upscale-methods.md)
+  * [AI角色资产设计标准化提示词（5套风格模板）](03-t2i-flow/character-design-prompt-template.md)
 
 * 四、进阶技巧（图像）
   * [ControlNet 基础使用教程](04-advanced-image/controlnet-basics.md)

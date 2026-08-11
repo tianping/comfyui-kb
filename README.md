@@ -21,6 +21,7 @@
 
 ### 三、图像生成流程
 - [图像放大方案对比](03-t2i-flow/upscale-methods.md) — 各类放大算法特点、组合策略、适用场景
+- [AI角色资产设计标准化提示词（5套风格模板）](03-t2i-flow/character-design-prompt-template.md) — 5套完整角色设定模板：正脸特写/三视图/6表情/服装配饰拆解/色彩色卡，法式初恋·暗夜蔷薇·暖阳治愈·暗夜红酒·中式水墨旗袍
 - 文生图(T2I)标准流程
 - 图生图(I2I)与重绘
 - 批量生成与种子控制
@@ -74,6 +75,7 @@
 | 01-basics | 工作流基本原理 | 4 |
 | 02-core-nodes | KSampler 采样器详解 | 2 |
 | 03-t2i-flow | 图像放大方案对比 | 1 |
+| 03-t2i-flow | AI角色资产设计标准化提示词（5套风格模板） | 1 |
 | 04-advanced-image | ControlNet 基础使用教程 | 4 |
 | 05-video-generation | AnimateDiff 视频生成入门 | 1 |
 
