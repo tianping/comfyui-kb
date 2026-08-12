@@ -36,6 +36,7 @@
 
 ### 五、视频生成
 - [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md) — Text2Vid/Vid2Vid工作流、安装、核心节点、进阶技巧
+- [LTX2.5 本地 ComfyUI 部署教程](05-video-generation/ltx25-local-deployment.md) — 系统需求、5个核心权重下载、目录配置、工作流获取
 - AnimateDiff 进阶（运动模块 / LoRA / CFG）
 - SVD(Stable Video Diffusion) 工作流
 - 视频帧处理（帧率 / 插帧 / 抽帧）
@@ -79,6 +80,7 @@
 | 03-t2i-flow | AI角色资产设计标准化提示词（5套风格模板） | 1 |
 | 04-advanced-image | ControlNet 基础使用教程 | 4 |
 | 05-video-generation | AnimateDiff 视频生成入门 | 1 |
+| 05-video-generation | LTX2.5 本地 ComfyUI 部署教程 | 1 |
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
 
 ---
