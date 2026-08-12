@@ -22,6 +22,8 @@
 ### 三、图像生成流程
 - [图像放大方案对比](03-t2i-flow/upscale-methods.md) — 各类放大算法特点、组合策略、适用场景
 - [AI角色资产设计标准化提示词（5套风格模板）](03-t2i-flow/character-design-prompt-template.md) — 5套完整角色设定模板：正脸特写/三视图/6表情/服装配饰拆解/色彩色卡，法式初恋·暗夜蔷薇·暖阳治愈·暗夜红酒·中式水墨旗袍
+- [Ollama 图像生成：终端本地出图实战](03-t2i-flow/ollama-image-generation.md) — 2026年1月Ollama加入实验性出图，Z-Image-Turbo+FLUX.2 Klein两模型，终端一条命令出图，附显存需求与ComfyUI对比
+- [Z-Image Turbo 在 ComfyUI 中的使用教程](03-t2i-flow/z-image-turbo-comfyui.md) — 阿里通义6B distilled模型，8步出图2-3秒，BF16/FP8/GGUF三档显存，三文件安装+推荐参数+vs FLUX/SDXL对比
 - 文生图(T2I)标准流程
 - 图生图(I2I)与重绘
 - 批量生成与种子控制
@@ -80,6 +82,8 @@
 | 02-core-nodes | KSampler 采样器详解 | 2 |
 | 03-t2i-flow | 图像放大方案对比 | 1 |
 | 03-t2i-flow | AI角色资产设计标准化提示词（5套风格模板） | 1 |
+| 03-t2i-flow | Ollama 图像生成：终端本地出图实战 | 1 |
+| 03-t2i-flow | Z-Image Turbo 在 ComfyUI 中的使用教程 | 1 |
 | 04-advanced-image | ControlNet 基础使用教程 | 4 |
 | 05-video-generation | AnimateDiff 视频生成入门 | 1 |
 | 05-video-generation | LTX2.5 本地 ComfyUI 部署教程 | 1 |

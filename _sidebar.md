@@ -9,6 +9,8 @@
 * 三、图像生成流程
   * [图像放大方案对比](03-t2i-flow/upscale-methods.md)
   * [AI角色资产设计标准化提示词（5套风格模板）](03-t2i-flow/character-design-prompt-template.md)
+  * [Ollama 图像生成：终端本地出图实战](03-t2i-flow/ollama-image-generation.md)
+  * [Z-Image Turbo 在 ComfyUI 中的使用教程](03-t2i-flow/z-image-turbo-comfyui.md)
 
 * 四、进阶技巧（图像）
   * [ControlNet 基础使用教程](04-advanced-image/controlnet-basics.md)
