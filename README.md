@@ -41,6 +41,7 @@
 - [LTX2.5 本地 ComfyUI 部署教程](05-video-generation/ltx25-local-deployment.md) — 系统需求、5个核心权重下载、目录配置、工作流获取
 - [MiniMax H3 突破15秒：接力插件实现任意时长](05-video-generation/minimax-h3-arbitrary-duration.md) — Motion Context接力+Director导演台，段间清显存、分段落盘、局部重跑
 - [ComfyUI + MiniMax H3 图生视频纯小白教程](05-video-generation/minimax-h3-beginner-tutorial.md) — 三步上手：下载ComfyUI→软件内自动下载H3模型→图生视频，16G显存可跑
+- [MiniMax H3 Realism People LoRA：告别AI塑料感，生成影视级真人](05-video-generation/minimax-h3-realism-people-lora.md) — 针对H3的写实增强LoRA，不改风格而是重组物理光影，解决动态人像恐怖谷，HuggingFace已开源
 - AnimateDiff 进阶（运动模块 / LoRA / CFG）
 - SVD(Stable Video Diffusion) 工作流
 - 视频帧处理（帧率 / 插帧 / 抽帧）
@@ -89,6 +90,7 @@
 | 05-video-generation | LTX2.5 本地 ComfyUI 部署教程 | 1 |
 | 05-video-generation | MiniMax H3 突破15秒：接力插件实现任意时长 | 1 |
 | 05-video-generation | ComfyUI + MiniMax H3 图生视频纯小白教程 | 1 |
+| 05-video-generation | MiniMax H3 Realism People LoRA | 1 |
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
 
 ---

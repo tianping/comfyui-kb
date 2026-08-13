@@ -20,6 +20,7 @@
   * [LTX2.5 本地 ComfyUI 部署教程](05-video-generation/ltx25-local-deployment.md)
   * [MiniMax H3 突破15秒：接力插件实现任意时长](05-video-generation/minimax-h3-arbitrary-duration.md)
   * [ComfyUI + MiniMax H3 图生视频纯小白教程](05-video-generation/minimax-h3-beginner-tutorial.md)
+  * [MiniMax H3 Realism People LoRA：告别AI塑料感](05-video-generation/minimax-h3-realism-people-lora.md)
 
 * 六、模型与资源管理
   * [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md)
