@@ -67,6 +67,7 @@
 - 视频批处理自动化工作流
 
 ### 八、环境与部署
+- [ComfyUI 0.31 本地视频商用方案：DGX+NAS部署](08-deployment/comfyui-031-local-video-deployment.md) — 0.31核心更新、本地视频五大流派(MiniMax H3/Wan Animate 2/Wan 2.2 MoE/LTX-2/云端API)、2026静态绘图模型格局、DGX Spark+QNAP NFS算力存储分离架构
 - 本地安装与配置(Windows / Linux / Mac)
 - 云端部署(Google Colab / RunPod / AutoDL)
 - 性能优化与显存管理
@@ -92,6 +93,7 @@
 | 05-video-generation | ComfyUI + MiniMax H3 图生视频纯小白教程 | 1 |
 | 05-video-generation | MiniMax H3 Realism People LoRA | 1 |
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
+| 08-deployment | ComfyUI 0.31 本地视频商用方案：DGX+NAS部署 | 1 |
 
 ---
 
