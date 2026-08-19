@@ -27,5 +27,6 @@
 
 * 八、环境与部署
   * [ComfyUI 0.31 本地视频商用方案：DGX+NAS部署](08-deployment/comfyui-031-local-video-deployment.md)
+  * [ComfyUI 手动安装自定义节点教程](08-deployment/custom-node-manual-install.md)
 
 * [inbox（待整理）](inbox/)
