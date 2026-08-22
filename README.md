@@ -53,6 +53,7 @@
 
 ### 六、模型与资源管理
 - [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md) — 从装环境到出图零代码，512张图10小时训练，数据集决定上限
+- [一文看懂GGUF：原理、等级、安装、实战](06-models/2026-08-21-gguf-principles-guide.md) — 量化压缩+内存映射，显存12GB→4GB，FLUX.1 Dev各等级量化文件对照表+ComfyUI使用方法
 - 模型下载与存放规范
 - LoRA 训练入门
 - 模型合并(Model Merge)
@@ -94,6 +95,7 @@
 | 05-video-generation | ComfyUI + MiniMax H3 图生视频纯小白教程 | 1 |
 | 05-video-generation | MiniMax H3 Realism People LoRA | 1 |
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
+| 06-models | 一文看懂GGUF：原理、等级、安装、实战 | 1 |
 | 08-deployment | ComfyUI 0.31 本地视频商用方案：DGX+NAS部署 | 1 |
 | 08-deployment | ComfyUI 手动安装自定义节点教程 | 1 |
 
