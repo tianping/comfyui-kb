@@ -94,6 +94,7 @@
 | 05-video-generation | MiniMax H3 突破15秒：接力插件实现任意时长 | 1 |
 | 05-video-generation | ComfyUI + MiniMax H3 图生视频纯小白教程 | 1 |
 | 05-video-generation | MiniMax H3 Realism People LoRA | 1 |
+| 05-video-generation | GPT-SoVITS 配音工作流：ComfyUI 个性化配音完整流程 | 1 |
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
 | 06-models | 一文看懂GGUF：原理、等级、安装、实战 | 1 |
 | 08-deployment | ComfyUI 0.31 本地视频商用方案：DGX+NAS部署 | 1 |
