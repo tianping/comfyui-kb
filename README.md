@@ -43,6 +43,7 @@
 - [ComfyUI + MiniMax H3 图生视频纯小白教程](05-video-generation/minimax-h3-beginner-tutorial.md) — 三步上手：下载ComfyUI→软件内自动下载H3模型→图生视频，16G显存可跑
 - [MiniMax H3 Realism People LoRA：告别AI塑料感，生成影视级真人](05-video-generation/minimax-h3-realism-people-lora.md) — 针对H3的写实增强LoRA，不改风格而是重组物理光影，解决动态人像恐怖谷，HuggingFace已开源
 - [GPT-SoVITS 配音工作流：ComfyUI 个性化配音完整流程](05-video-generation/2026-08-21-gptsovits-comfyui-dubbing-workflow.md) — 3~10秒参考音频克隆音色，分场景参数速查表（口播/种草/剧情/科普），RNNoise降噪+EQ+响度归一化全流程
+- [MiniMax H3 多参工作流（REF2VA）详解](05-video-generation/minimax-h3-multi-reference-workflow.md) — FL2VA vs REF2VA、9图+3音频+3视频参考上限、if/else加速LoRA开关（20步→4步）、帧数换算公式、res_multistep采样器、skill提示词模板
 - AnimateDiff 进阶（运动模块 / LoRA / CFG）
 - SVD(Stable Video Diffusion) 工作流
 - 视频帧处理（帧率 / 插帧 / 抽帧）
@@ -62,6 +63,7 @@
 - Civitai 模型选型指南
 
 ### 七、高级工作流
+- [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md) — 角色一致性（IP-Adapter+LoRA参数）/批量分镜/Prompt List/Wan2.2·H3·LTX三方案图生视频/修复流水线（去闪→超分→插帧→口型）/多角色同框三方案
 - 多模型级联(SDXL → Refiner)
 - 动态工作流与 API 调用
 - 自定义节点开发(Node Development)
@@ -96,8 +98,11 @@
 | 05-video-generation | ComfyUI + MiniMax H3 图生视频纯小白教程 | 1 |
 | 05-video-generation | MiniMax H3 Realism People LoRA | 1 |
 | 05-video-generation | GPT-SoVITS 配音工作流：ComfyUI 个性化配音完整流程 | 1 |
+| 05-video-generation | MiniMax H3 多参工作流（REF2VA）详解 | 1 |
+| 07-advanced-workflows | ComfyUI 短剧工作流模板库：5 个开箱即用的工作流 | 1 |
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
 | 06-models | 一文看懂GGUF：原理、等级、安装、实战 | 1 |
+| 06-models | Krea 2 Turbo 文生动漫图片 — 本地无限免费生成 | 1 |
 | 08-deployment | ComfyUI 0.31 本地视频商用方案：DGX+NAS部署 | 1 |
 | 08-deployment | ComfyUI 手动安装自定义节点教程 | 1 |
 

@@ -22,10 +22,15 @@
   * [ComfyUI + MiniMax H3 图生视频纯小白教程](05-video-generation/minimax-h3-beginner-tutorial.md)
   * [MiniMax H3 Realism People LoRA：告别AI塑料感](05-video-generation/minimax-h3-realism-people-lora.md)
 * [GPT-SoVITS 配音工作流：ComfyUI 个性化配音完整流程](05-video-generation/2026-08-21-gptsovits-comfyui-dubbing-workflow.md)
+  * [MiniMax H3 多参工作流（REF2VA）详解](05-video-generation/minimax-h3-multi-reference-workflow.md)
+
+* 七、高级工作流
+  * [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md)
 
 * 六、模型与资源管理
   * [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md)
   * [一文看懂GGUF：原理、等级、安装、实战](06-models/2026-08-21-gguf-principles-guide.md)
+  * [Krea 2 Turbo 文生动漫图片 — 本地无限免费生成](06-models/2026-08-22-krea-2-turbo-local-anime-generation.md)
 
 * 八、环境与部署
   * [ComfyUI 0.31 本地视频商用方案：DGX+NAS部署](08-deployment/comfyui-031-local-video-deployment.md)
