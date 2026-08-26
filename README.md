@@ -56,6 +56,7 @@
 ### 六、模型与资源管理
 - [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md) — 从装环境到出图零代码，512张图10小时训练，数据集决定上限
 - [一文看懂GGUF：原理、等级、安装、实战](06-models/2026-08-21-gguf-principles-guide.md) — 量化压缩+内存映射，显存12GB→4GB，FLUX.1 Dev各等级量化文件对照表+ComfyUI使用方法
+- [2026年8月 ComfyUI 生态爆发：新模型速览 + N/A 卡硬件对照](06-models/2026-08-26-comfyui-august-ecosystem-hardware-guide.md) — LTX 2.5 / MiniMax H3 / Music 3 / Qwen-Video-Edit / SAM 3D Body 最低显存速查表，A卡ROCm要点与选型建议
 - 模型下载与存放规范
 - LoRA 训练入门
 - 模型合并(Model Merge)
@@ -103,6 +104,7 @@
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
 | 06-models | 一文看懂GGUF：原理、等级、安装、实战 | 1 |
 | 06-models | Krea 2 Turbo 文生动漫图片 — 本地无限免费生成 | 1 |
+| 06-models | 2026年8月 ComfyUI 生态爆发：新模型速览 + N/A 卡硬件对照 | 1 |
 | 08-deployment | ComfyUI 0.31 本地视频商用方案：DGX+NAS部署 | 1 |
 | 08-deployment | ComfyUI 手动安装自定义节点教程 | 1 |
 
