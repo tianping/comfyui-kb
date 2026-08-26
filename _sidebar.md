@@ -26,6 +26,7 @@
 
 * 七、高级工作流
   * [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md)
+  * [ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿](07-advanced-workflows/2026-08-26-comfyui-manga-storyboard-workflow.md)
 
 * 六、模型与资源管理
   * [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md)

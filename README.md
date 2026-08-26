@@ -65,6 +65,7 @@
 
 ### 七、高级工作流
 - [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md) — 角色一致性（IP-Adapter+LoRA参数）/批量分镜/Prompt List/Wan2.2·H3·LTX三方案图生视频/修复流水线（去闪→超分→插帧→口型）/多角色同框三方案
+- [ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿](07-advanced-workflows/2026-08-26-comfyui-manga-storyboard-workflow.md) — 角色参考卡+IP-Adapter锁脸+ControlNet控构图+固定模型配方保风格，批量生图筛选与分镜Prompt模板
 - 多模型级联(SDXL → Refiner)
 - 动态工作流与 API 调用
 - 自定义节点开发(Node Development)
@@ -101,6 +102,7 @@
 | 05-video-generation | GPT-SoVITS 配音工作流：ComfyUI 个性化配音完整流程 | 1 |
 | 05-video-generation | MiniMax H3 多参工作流（REF2VA）详解 | 1 |
 | 07-advanced-workflows | ComfyUI 短剧工作流模板库：5 个开箱即用的工作流 | 1 |
+| 07-advanced-workflows | ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿 | 1 |
 | 06-models | Hermes全自动LoRA训练实战 | 1 |
 | 06-models | 一文看懂GGUF：原理、等级、安装、实战 | 1 |
 | 06-models | Krea 2 Turbo 文生动漫图片 — 本地无限免费生成 | 1 |
