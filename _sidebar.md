@@ -33,6 +33,7 @@
   * [一文看懂GGUF：原理、等级、安装、实战](06-models/2026-08-21-gguf-principles-guide.md)
   * [Krea 2 Turbo 文生动漫图片 — 本地无限免费生成](06-models/2026-08-22-krea-2-turbo-local-anime-generation.md)
   * [2026年8月 ComfyUI 生态爆发：新模型速览 + N/A 卡硬件对照](06-models/2026-08-26-comfyui-august-ecosystem-hardware-guide.md)
+  * [ComfyUI + SD 3.5 对比实测：它真的比 SDXL 强吗？](06-models/2026-08-26-sd35-comfyui-comparison.md)
 
 * 八、环境与部署
   * [ComfyUI 0.31 本地视频商用方案：DGX+NAS部署](08-deployment/comfyui-031-local-video-deployment.md)
