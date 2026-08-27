@@ -14,6 +14,7 @@
 
 * 四、进阶技巧（图像）
   * [ControlNet 基础使用教程](04-advanced-image/controlnet-basics.md)
+  * [ControlNet 核心原理拆解：冻结+克隆+零卷积](04-advanced-image/controlnet-principles.md)
 
 * 五、视频生成
   * [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md)

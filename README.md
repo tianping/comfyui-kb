@@ -31,6 +31,7 @@
 
 ### 四、进阶技巧（图像）
 - [ControlNet 基础使用教程](04-advanced-image/controlnet-basics.md) — 概念、安装、标准工作流、多ControlNet叠加、实用技巧
+- [ControlNet 核心原理拆解：冻结+克隆+零卷积](04-advanced-image/controlnet-principles.md) — 为什么克隆编码器不克隆整个UNet、零卷积为何从零开始增长、ControlNet与底模强耦合不可跨模型通用
 - IPAdapter / 风格迁移
 - 区域控制(Regional Prompter)
 - 遮罩与局部重绘(Inpaint)
@@ -95,6 +96,7 @@
 | 03-t2i-flow | Ollama 图像生成：终端本地出图实战 | 1 |
 | 03-t2i-flow | Z-Image Turbo 在 ComfyUI 中的使用教程 | 1 |
 | 04-advanced-image | ControlNet 基础使用教程 | 4 |
+| 04-advanced-image | ControlNet 核心原理拆解：冻结+克隆+零卷积 | 1 |
 | 05-video-generation | AnimateDiff 视频生成入门 | 1 |
 | 05-video-generation | LTX2.5 本地 ComfyUI 部署教程 | 1 |
 | 05-video-generation | MiniMax H3 突破15秒：接力插件实现任意时长 | 1 |
