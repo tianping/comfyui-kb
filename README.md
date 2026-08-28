@@ -45,6 +45,7 @@
 - [MiniMax H3 Realism People LoRA：告别AI塑料感，生成影视级真人](05-video-generation/minimax-h3-realism-people-lora.md) — 针对H3的写实增强LoRA，不改风格而是重组物理光影，解决动态人像恐怖谷，HuggingFace已开源
 - [GPT-SoVITS 配音工作流：ComfyUI 个性化配音完整流程](05-video-generation/2026-08-21-gptsovits-comfyui-dubbing-workflow.md) — 3~10秒参考音频克隆音色，分场景参数速查表（口播/种草/剧情/科普），RNNoise降噪+EQ+响度归一化全流程
 - [MiniMax H3 多参工作流（REF2VA）详解](05-video-generation/minimax-h3-multi-reference-workflow.md) — FL2VA vs REF2VA、9图+3音频+3视频参考上限、if/else加速LoRA开关（20步→4步）、帧数换算公式、res_multistep采样器、skill提示词模板
+- [MiniMax H3 电影感 LoRA + Sigma Refiner 工作流](05-video-generation/2026-08-28-minimax-h3-cinematic-lora-sigma-refiner.md) — 电影感LoRA改善光影肤质+Sigma Refiner修复高动态拉丝，文戏武戏同一工作流，720P→Topaz放大方案
 - AnimateDiff 进阶（运动模块 / LoRA / CFG）
 - SVD(Stable Video Diffusion) 工作流
 - 视频帧处理（帧率 / 插帧 / 抽帧）

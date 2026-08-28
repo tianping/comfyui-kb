@@ -24,6 +24,7 @@
   * [MiniMax H3 Realism People LoRA：告别AI塑料感](05-video-generation/minimax-h3-realism-people-lora.md)
 * [GPT-SoVITS 配音工作流：ComfyUI 个性化配音完整流程](05-video-generation/2026-08-21-gptsovits-comfyui-dubbing-workflow.md)
   * [MiniMax H3 多参工作流（REF2VA）详解](05-video-generation/minimax-h3-multi-reference-workflow.md)
+  * [MiniMax H3 电影感 LoRA + Sigma Refiner 工作流](05-video-generation/2026-08-28-minimax-h3-cinematic-lora-sigma-refiner.md) — 电影感LoRA改善光影肤质+Sigma Refiner修复高动态拉丝，文戏武戏同一工作流
 
 * 七、高级工作流
   * [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md)
