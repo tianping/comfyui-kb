@@ -68,6 +68,7 @@
 ### 七、高级工作流
 - [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md) — 角色一致性（IP-Adapter+LoRA参数）/批量分镜/Prompt List/Wan2.2·H3·LTX三方案图生视频/修复流水线（去闪→超分→插帧→口型）/多角色同框三方案
 - [ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿](07-advanced-workflows/2026-08-26-comfyui-manga-storyboard-workflow.md) — 角色参考卡+IP-Adapter锁脸+ControlNet控构图+固定模型配方保风格，批量生图筛选与分镜Prompt模板
+- [ComfyUI实战营收官：把14篇技能串成流水线，一个人就是一个内容团队](07-advanced-workflows/2026-08-28-comfyui-fullstack-content-factory.md) — AI全栈内容工厂七环节全链路拆解（选题→脚本→分镜→出图→视频→后期→发布）、双轨并行模式、L1→L3升级路径、开源工具推荐
 - 多模型级联(SDXL → Refiner)
 - 动态工作流与 API 调用
 - 自定义节点开发(Node Development)
