@@ -31,6 +31,7 @@
   * [ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿](07-advanced-workflows/2026-08-26-comfyui-manga-storyboard-workflow.md)
   * [ComfyUI+Dify自动化：从一句话到批量出图，搭建你的AI内容工厂](07-advanced-workflows/2026-08-30-comfyui-dify-automation-content-factory.md) — Dify编排+ComfyUI执行，三个场景：智能提示词→批量分镜→全自动短剧生产线；含API对接、角色一致性、kt-ai-Studio开源实现
   * [ComfyUI实战营收官：把14篇技能串成流水线，一个人就是一个内容团队](07-advanced-workflows/2026-08-28-comfyui-fullstack-content-factory.md) — AI全栈内容工厂七环节全链路拆解、双轨并行模式、L1→L3升级路径、开源工具推荐
+  * [MiniMax Music 3：ComfyUI 音乐生成工作流全拆解](07-advanced-workflows/2026-09-07-minimax-music3-comfyui-workflow.md) — 子图封装扩散音频流水线，caption三段式+歌词结构标签，three models (DiT/text encoder/VAE)，低显存tiled decode方案
 
 * 六、模型与资源管理
   * [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md)

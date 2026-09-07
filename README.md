@@ -71,6 +71,7 @@
 - [ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿](07-advanced-workflows/2026-08-26-comfyui-manga-storyboard-workflow.md) — 角色参考卡+IP-Adapter锁脸+ControlNet控构图+固定模型配方保风格，批量生图筛选与分镜Prompt模板
 - [ComfyUI+Dify自动化：从一句话到批量出图，搭建你的AI内容工厂](07-advanced-workflows/2026-08-30-comfyui-dify-automation-content-factory.md) — Dify编排+ComfyUI执行，三个场景：智能提示词→批量分镜→全自动短剧生产线；含API对接、角色一致性、kt-ai-Studio开源实现
 - [ComfyUI实战营收官：把14篇技能串成流水线，一个人就是一个内容团队](07-advanced-workflows/2026-08-28-comfyui-fullstack-content-factory.md) — AI全栈内容工厂七环节全链路拆解（选题→脚本→分镜→出图→视频→后期→发布）、双轨并行模式、L1→L3升级路径、开源工具推荐
+- [MiniMax Music 3：ComfyUI 音乐生成工作流全拆解](07-advanced-workflows/2026-09-07-minimax-music3-comfyui-workflow.md) — 子图封装扩散音频流水线，caption三段式+歌词结构标签，three models(DiT/text encoder/VAE)，低显存tiled decode方案
 - 多模型级联(SDXL → Refiner)
 - 动态工作流与 API 调用
 - 自定义节点开发(Node Development)
@@ -116,6 +117,7 @@
 | 06-models | ComfyUI + SD 3.5 对比实测：它真的比 SDXL 强吗？ | 1 |
 | 08-deployment | ComfyUI 0.31 本地视频商用方案：DGX+NAS部署 | 1 |
 | 08-deployment | ComfyUI 手动安装自定义节点教程 | 1 |
+| 07-advanced-workflows | MiniMax Music 3：ComfyUI 音乐生成工作流全拆解 | 1 |
 
 ---
 
