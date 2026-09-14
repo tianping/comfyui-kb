@@ -5,6 +5,7 @@
 ## 知识地图
 
 ### 一、基础概念
+- [出图总是糊？换 2026 四个值得用的出图模型（Z-Image Turbo / FLUX.1 dev / SDXL / Qwen-Image）](2026-09-13-2026-四个值得用的出图模型.md) — ComfyUI 默认 SD 1.5 太老；四模型对号入座：Z-Image Turbo 快速迭代/商用、FLUX dev 写实、SDXL 画风LoRA、Qwen-Image 中文字；低显存走 FP8/GGUF 量化，核心是塞进显存；Z-Image Turbo 装法三步（三个文件三个目录 + 官方模板 + 加载器指向）
 - [工作流基本原理](01-basics/workflow-fundamentals.md) — 节点/连线机制、五大基础节点类别、三种基本工作流模式
 - 节点(Node)与连线(Link)机制
 - 工作流(Workflow)概念

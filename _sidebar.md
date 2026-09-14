@@ -46,3 +46,5 @@
   * [ComfyUI 手动安装自定义节点教程](08-deployment/custom-node-manual-install.md)
 
 * [inbox（待整理）](inbox/)
+
+  * [出图总是糊？换 2026 四个值得用的出图模型（Z-Image Turbo / FLUX.1 dev / SDXL / Qwen-Image）](2026-09-13-2026-四个值得用的出图模型.md) — ComfyUI 默认 SD 1.5 太老；四模型对号入座：Z-Image Turbo 快速迭代/商用、FLUX dev 写实、SDXL 画风LoRA、Qwen-Image 中文字；低显存走 FP8/GGUF 量化，核心是塞进显存；Z-Image Turbo 装法三步（三个文件三个目录 + 官方模板 + 加载器指向）
