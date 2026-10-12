@@ -39,6 +39,7 @@
 - LoRA 叠加与权重混调
 
 ### 五、视频生成
+- [Kandinsky 6.0：一句话生成带声音的视频（ComfyUI 音画同步）](05-video-generation/2026-10-12-kandinsky-6-text-to-audio-video.md) — 开源文生音视频+唇形同步，Pro 29B/Lite 3B，MIT 可商用；ComfyUI 装 kandinsky6+sr，显存≥16GB (2026-10-12)
 - [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md) — Text2Vid/Vid2Vid工作流、安装、核心节点、进阶技巧
 - [LTX2.5 本地 ComfyUI 部署教程](05-video-generation/ltx25-local-deployment.md) — 系统需求、5个核心权重下载、目录配置、工作流获取
 - [MiniMax H3 突破15秒：接力插件实现任意时长](05-video-generation/minimax-h3-arbitrary-duration.md) — Motion Context接力+Director导演台，段间清显存、分段落盘、局部重跑
@@ -148,5 +149,3 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09 (2026-09-14)
-
-- [Kandinsky 6.0：一句话生成带声音的视频（ComfyUI 音画同步）](05-video-generation/2026-10-12-kandinsky-6-text-to-audio-video.md) — 开源文生音视频+唇形同步，Pro 29B/Lite 3B，MIT 可商用；ComfyUI 装 kandinsky6+sr，显存≥16GB (2026-10-12)
