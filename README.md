@@ -148,3 +148,5 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09 (2026-09-14)
+
+- [Kandinsky 6.0：一句话生成带声音的视频（ComfyUI 音画同步）](05-video-generation/2026-10-12-kandinsky-6-text-to-audio-video.md) — 开源文生音视频+唇形同步，Pro 29B/Lite 3B，MIT 可商用；ComfyUI 装 kandinsky6+sr，显存≥16GB (2026-10-12)

@@ -19,6 +19,7 @@
 
 * 五、视频生成
   * [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md)
+  * [Kandinsky 6.0：一句话生成带声音的视频（ComfyUI 音画同步）](05-video-generation/2026-10-12-kandinsky-6-text-to-audio-video.md) — 开源文生音视频+唇形同步，Pro 29B/Lite 3B，MIT 可商用；ComfyUI 装 kandinsky6+sr，显存≥16GB
   * [LTX2.5 本地 ComfyUI 部署教程](05-video-generation/ltx25-local-deployment.md)
   * [MiniMax H3 突破15秒：接力插件实现任意时长](05-video-generation/minimax-h3-arbitrary-duration.md)
   * [ComfyUI + MiniMax H3 图生视频纯小白教程](05-video-generation/minimax-h3-beginner-tutorial.md)
