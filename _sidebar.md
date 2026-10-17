@@ -19,6 +19,7 @@
 
 * 五、视频生成
   * [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md)
+  * [ComfyUI-H3-Continuum：MiniMax H3 分块连续生成超长视频](05-video-generation/2026-10-17-comfyui-h3-continuum-long-video.md) — 自定义节点包：约 5 秒/块分块采样，块间传递原生音视频潜变量，断点续跑、单块重试、多参考图按块路由、时间线提示词
   * [Kandinsky 6.0：一句话生成带声音的视频（ComfyUI 音画同步）](05-video-generation/2026-10-12-kandinsky-6-text-to-audio-video.md) — 开源文生音视频+唇形同步，Pro 29B/Lite 3B，MIT 可商用；ComfyUI 装 kandinsky6+sr，显存≥16GB
   * [LTX2.5 本地 ComfyUI 部署教程](05-video-generation/ltx25-local-deployment.md)
   * [MiniMax H3 突破15秒：接力插件实现任意时长](05-video-generation/minimax-h3-arbitrary-duration.md)
