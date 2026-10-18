@@ -5,6 +5,7 @@
 ## 知识地图
 
 ### 一、基础概念
+- [ComfyUI 正在成为「AI 内容操作系统」（生态趋势观点）](01-basics/2026-10-17-comfyui-ai-content-os.md) — 五个信号：NVIDIA GDC 2026 视频管线以 ComfyUI 为核心、AI 视频 workflow 多跑在 ComfyUI、创作者转本地、FLUX.2 带动生态、App Mode/App Builder/ComfyHub 走向应用平台；ComfyGPT 自动写 workflow (2026-10-17)
 - [出图总是糊？换 2026 四个值得用的出图模型（Z-Image Turbo / FLUX.1 dev / SDXL / Qwen-Image）](2026-09-13-2026-四个值得用的出图模型.md) — ComfyUI 默认 SD 1.5 太老；四模型对号入座：Z-Image Turbo 快速迭代/商用、FLUX dev 写实、SDXL 画风LoRA、Qwen-Image 中文字；低显存走 FP8/GGUF 量化，核心是塞进显存；Z-Image Turbo 装法三步（三个文件三个目录 + 官方模板 + 加载器指向）
 - [工作流基本原理](01-basics/workflow-fundamentals.md) — 节点/连线机制、五大基础节点类别、三种基本工作流模式
 - 节点(Node)与连线(Link)机制
@@ -98,6 +99,7 @@
 
 | 分类 | 笔记 | 来源数 |
 |------|------|--------|
+| 01-basics | ComfyUI 正在成为「AI 内容操作系统」（生态趋势观点） | 1 |
 | 05-video-generation | Wan2.7 接入 ComfyUI：AI 视频从出片走向工作流 | 1 |
 | 06-models | ComfyUI 本地跑 FLUX.3 Klein：文生图 + 指令改图 | 1 |
 | 05-video-generation | ComfyUI-H3-Continuum：MiniMax H3 分块连续生成超长视频 | 1 |
@@ -155,5 +157,3 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09 (2026-09-14)
-
-- [ComfyUI 正在成为「AI 内容操作系统」（生态趋势观点）](01-basics/2026-10-17-comfyui-ai-content-os.md) — 五个信号：NVIDIA GDC 2026 视频管线以 ComfyUI 为核心、AI 视频 workflow 多跑在 ComfyUI、创作者转本地、FLUX.2 带动生态、App Mode/App Builder/ComfyHub 走向应用平台；ComfyGPT 自动写 workflow (2026-10-17)
