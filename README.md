@@ -59,6 +59,7 @@
 - 视频生成常见问题（闪烁 / 抖动 / 画质崩坏）
 
 ### 六、模型与资源管理
+- [ComfyUI 本地跑 FLUX.3 Klein：文生图 + 指令改图（官方四套模板）](06-models/2026-10-17-flux3-klein-comfyui-local-t2i-edit.md) — 本地 vs Partner 托管对比；base 50 步 cfg3.5 / Distilled 4–16 步 cfg1；<ref_image_N> 多参考写结果全貌；HF 门控权重目录；ComfyUI ≥0.41.0；踩坑清单 (2026-10-17)
 - [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md) — 从装环境到出图零代码，512张图10小时训练，数据集决定上限
 - [一文看懂GGUF：原理、等级、安装、实战](06-models/2026-08-21-gguf-principles-guide.md) — 量化压缩+内存映射，显存12GB→4GB，FLUX.1 Dev各等级量化文件对照表+ComfyUI使用方法
 - [2026年8月 ComfyUI 生态爆发：新模型速览 + N/A 卡硬件对照](06-models/2026-08-26-comfyui-august-ecosystem-hardware-guide.md) — LTX 2.5 / MiniMax H3 / Music 3 / Qwen-Video-Edit / SAM 3D Body 最低显存速查表，A卡ROCm要点与选型建议
@@ -96,6 +97,7 @@
 
 | 分类 | 笔记 | 来源数 |
 |------|------|--------|
+| 06-models | ComfyUI 本地跑 FLUX.3 Klein：文生图 + 指令改图 | 1 |
 | 05-video-generation | ComfyUI-H3-Continuum：MiniMax H3 分块连续生成超长视频 | 1 |
 | 01-basics | 工作流基本原理 | 4 |
 | 02-core-nodes | KSampler 采样器详解 | 2 |
@@ -151,5 +153,3 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09 (2026-09-14)
-
-- [ComfyUI 本地跑 FLUX.3 Klein：文生图 + 指令改图（官方四套模板）](06-models/2026-10-17-flux3-klein-comfyui-local-t2i-edit.md) — 本地 vs Partner 托管对比；base 50 步 cfg3.5 / Distilled 4–16 步 cfg1；<ref_image_N> 多参考写结果全貌；HF 门控权重目录；ComfyUI ≥0.41.0；踩坑清单 (2026-10-17)
