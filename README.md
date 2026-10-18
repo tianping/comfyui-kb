@@ -78,6 +78,7 @@
 - [ComfyUI+Dify自动化：从一句话到批量出图，搭建你的AI内容工厂](07-advanced-workflows/2026-08-30-comfyui-dify-automation-content-factory.md) — Dify编排+ComfyUI执行，三个场景：智能提示词→批量分镜→全自动短剧生产线；含API对接、角色一致性、kt-ai-Studio开源实现
 - [ComfyUI实战营收官：把14篇技能串成流水线，一个人就是一个内容团队](07-advanced-workflows/2026-08-28-comfyui-fullstack-content-factory.md) — AI全栈内容工厂七环节全链路拆解（选题→脚本→分镜→出图→视频→后期→发布）、双轨并行模式、L1→L3升级路径、开源工具推荐
 - [MiniMax Music 3：ComfyUI 音乐生成工作流全拆解](07-advanced-workflows/2026-09-07-minimax-music3-comfyui-workflow.md) — 子图封装扩散音频流水线，caption三段式+歌词结构标签，three models(DiT/text encoder/VAE)，低显存tiled decode方案
+- [Comfy Agent 实战：一个人 3 天做完 4 分钟动画短片《YUI》](07-advanced-workflows/2026-10-18-comfy-agent-yui-short-film-case.md) — 官方 Agent（Comfy Cloud Beta，Credits 计费，共用画布）；852話 Hakoniwa 4:20 短片约 20 万日元/3 天；交给 Agent：重跑镜头、Wan/MiniMax H3/Seedance 并排比模型、对照设定图查一致性；故事与审美作者自留 (2026-10-18)
 - 多模型级联(SDXL → Refiner)
 - 动态工作流与 API 调用
 - 自定义节点开发(Node Development)
@@ -99,6 +100,7 @@
 
 | 分类 | 笔记 | 来源数 |
 |------|------|--------|
+| 07-advanced-workflows | Comfy Agent 实战：一个人 3 天做完 4 分钟动画短片《YUI》 | 1 |
 | 01-basics | ComfyUI 正在成为「AI 内容操作系统」（生态趋势观点） | 1 |
 | 05-video-generation | Wan2.7 接入 ComfyUI：AI 视频从出片走向工作流 | 1 |
 | 06-models | ComfyUI 本地跑 FLUX.3 Klein：文生图 + 指令改图 | 1 |
