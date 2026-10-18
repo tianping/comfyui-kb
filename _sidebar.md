@@ -39,6 +39,7 @@
 
 * 六、模型与资源管理
   * [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md)
+  * [ComfyUI 本地跑 FLUX.3 Klein：文生图 + 指令改图（官方四套模板）](06-models/2026-10-17-flux3-klein-comfyui-local-t2i-edit.md) — 本地 vs Partner 托管对比；base 50 步 cfg3.5 / Distilled 4–16 步 cfg1；<ref_image_N> 多参考写结果全貌；HF 门控权重目录；ComfyUI ≥0.41.0；踩坑清单
   * [一文看懂GGUF：原理、等级、安装、实战](06-models/2026-08-21-gguf-principles-guide.md)
   * [Krea 2 Turbo 文生动漫图片 — 本地无限免费生成](06-models/2026-08-22-krea-2-turbo-local-anime-generation.md)
   * [2026年8月 ComfyUI 生态爆发：新模型速览 + N/A 卡硬件对照](06-models/2026-08-26-comfyui-august-ecosystem-hardware-guide.md)
