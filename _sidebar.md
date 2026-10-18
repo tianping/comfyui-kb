@@ -2,6 +2,7 @@
 
 * 一、基础概念
   * [工作流基本原理](01-basics/workflow-fundamentals.md)
+  * [ComfyUI 正在成为「AI 内容操作系统」（生态趋势观点）](01-basics/2026-10-17-comfyui-ai-content-os.md) — 五个信号：NVIDIA GDC 2026 视频管线以 ComfyUI 为核心、AI 视频 workflow 多跑在 ComfyUI、创作者转本地、FLUX.2 带动生态、App Mode/App Builder/ComfyHub 走向应用平台；ComfyGPT 自动写 workflow
 
 * 二、核心节点
   * [KSampler 采样器详解](02-core-nodes/ksampler-details.md)
