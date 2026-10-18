@@ -19,6 +19,7 @@
 
 * 五、视频生成
   * [AnimateDiff 视频生成入门](05-video-generation/animatediff-basics.md)
+  * [Wan2.7 接入 ComfyUI：AI 视频从出片走向工作流](05-video-generation/2026-10-17-wan27-comfyui-partner-nodes.md) — 2026-04 Partner 节点接入；文/图/音/视四模态统一，首末帧+音频驱动 I2V、视频续播、最多 5 人视频参考（形象+音色）、视频编辑；同期 App Mode/ComfyHub、Dynamic VRAM、Wan2.7-Image
   * [ComfyUI-H3-Continuum：MiniMax H3 分块连续生成超长视频](05-video-generation/2026-10-17-comfyui-h3-continuum-long-video.md) — 自定义节点包：约 5 秒/块分块采样，块间传递原生音视频潜变量，断点续跑、单块重试、多参考图按块路由、时间线提示词
   * [Kandinsky 6.0：一句话生成带声音的视频（ComfyUI 音画同步）](05-video-generation/2026-10-12-kandinsky-6-text-to-audio-video.md) — 开源文生音视频+唇形同步，Pro 29B/Lite 3B，MIT 可商用；ComfyUI 装 kandinsky6+sr，显存≥16GB
   * [LTX2.5 本地 ComfyUI 部署教程](05-video-generation/ltx25-local-deployment.md)
