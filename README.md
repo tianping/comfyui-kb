@@ -32,6 +32,7 @@
 - 提示词工程（正向/负向/权重）
 
 ### 四、进阶技巧（图像）
+- [角色一键 Q 化：Any2Qcartoon LoRA（Qwen-Image-Edit-2511）](04-advanced-image/2026-10-20-any2qcartoon-qwen-edit-2511-lora.md) — 任意 IP 角色转 Q 版手办风；只配 Qwen-Image-Edit-2511（配 Rapid-AIO 会变 2D）；触发词 convert to q-version cartoon figurine style、权重 1.0、1:1 画幅；65 对图训练、Rank 32、1024² (2026-10-20)
 - [ControlNet 基础使用教程](04-advanced-image/controlnet-basics.md) — 概念、安装、标准工作流、多ControlNet叠加、实用技巧
 - [ControlNet 核心原理拆解：冻结+克隆+零卷积](04-advanced-image/controlnet-principles.md) — 为什么克隆编码器不克隆整个UNet、零卷积为何从零开始增长、ControlNet与底模强耦合不可跨模型通用
 - IPAdapter / 风格迁移
@@ -100,6 +101,7 @@
 
 | 分类 | 笔记 | 来源数 |
 |------|------|--------|
+| 04-advanced-image | 角色一键 Q 化：Any2Qcartoon LoRA（Qwen-Image-Edit-2511） | 1 |
 | 07-advanced-workflows | Comfy Agent 实战：一个人 3 天做完 4 分钟动画短片《YUI》 | 1 |
 | 01-basics | ComfyUI 正在成为「AI 内容操作系统」（生态趋势观点） | 1 |
 | 05-video-generation | Wan2.7 接入 ComfyUI：AI 视频从出片走向工作流 | 1 |

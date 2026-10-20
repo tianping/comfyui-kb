@@ -14,6 +14,7 @@
   * [Z-Image Turbo 在 ComfyUI 中的使用教程](03-t2i-flow/z-image-turbo-comfyui.md)
 
 * 四、进阶技巧（图像）
+  * [角色一键 Q 化：Any2Qcartoon LoRA（Qwen-Image-Edit-2511）](04-advanced-image/2026-10-20-any2qcartoon-qwen-edit-2511-lora.md) — 任意 IP 角色转 Q 版手办风；只配 Qwen-Image-Edit-2511（配 Rapid-AIO 会变 2D）；触发词 convert to q-version cartoon figurine style、权重 1.0、1:1 画幅；65 对图训练、Rank 32、1024²
   * [ControlNet 基础使用教程](04-advanced-image/controlnet-basics.md)
   * [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09
   * [ControlNet 核心原理拆解：冻结+克隆+零卷积](04-advanced-image/controlnet-principles.md)
