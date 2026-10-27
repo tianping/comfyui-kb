@@ -163,3 +163,5 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09 (2026-09-14)
+
+- [ComfyUI 原生接入 Trellis.2 与 Pixal3D：零依赖本地 3D 生成，6G 显存可跑](06-models/2026-10-27-trellis2-pixal3d-native-3d.md) — 纯 PyTorch 重写去掉 CUDA 编译扩展与 nvdiffrast 非商用限制；INT8 量化 6–8G 显存跑通体素→减面→UV→PBR→GLB；Trellis.2 擅复杂拓扑、Pixal3D 擅像素级还原，Conditioning 节点不可混用；需切 GitHub latest 版 (2026-10-27)

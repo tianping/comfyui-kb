@@ -44,6 +44,7 @@
 
 * 六、模型与资源管理
   * [Hermes全自动LoRA训练实战](06-models/lora-training-hermes-automated.md)
+  * [ComfyUI 原生接入 Trellis.2 与 Pixal3D：零依赖本地 3D 生成，6G 显存可跑](06-models/2026-10-27-trellis2-pixal3d-native-3d.md) — 纯 PyTorch 重写去掉 CUDA 编译扩展与 nvdiffrast 非商用限制；INT8 量化 6–8G 显存跑通体素→减面→UV→PBR→GLB；Trellis.2 擅复杂拓扑、Pixal3D 擅像素级还原，Conditioning 节点不可混用；需切 GitHub latest 版
   * [ComfyUI 本地跑 FLUX.3 Klein：文生图 + 指令改图（官方四套模板）](06-models/2026-10-17-flux3-klein-comfyui-local-t2i-edit.md) — 本地 vs Partner 托管对比；base 50 步 cfg3.5 / Distilled 4–16 步 cfg1；<ref_image_N> 多参考写结果全貌；HF 门控权重目录；ComfyUI ≥0.41.0；踩坑清单
   * [一文看懂GGUF：原理、等级、安装、实战](06-models/2026-08-21-gguf-principles-guide.md)
   * [Krea 2 Turbo 文生动漫图片 — 本地无限免费生成](06-models/2026-08-22-krea-2-turbo-local-anime-generation.md)
