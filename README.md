@@ -161,3 +161,5 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09 (2026-09-14)
+
+- [ComfyUI 官方模板库 workflow_templates 开源：449 个工作流带模型清单](07-advanced-workflows/2026-10-27-comfy-org-workflow-templates-repo.md) — Comfy-Org 官方模板源头仓库：每个模板带模型清单与存放目录、节点版本要求、MarkdownNote 文档；子图蓝图需前端≥1.27.7；CI 校验；comfy.org/workflows 在线浏览；PyPI 包 comfyui-workflow-templates (2026-10-27)

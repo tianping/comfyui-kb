@@ -34,6 +34,7 @@
 
 * 七、高级工作流
   * [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md)
+  * [ComfyUI 官方模板库 workflow_templates 开源：449 个工作流带模型清单](07-advanced-workflows/2026-10-27-comfy-org-workflow-templates-repo.md) — Comfy-Org 官方模板源头仓库：每个模板带模型清单与存放目录、节点版本要求、MarkdownNote 文档；子图蓝图需前端≥1.27.7；CI 校验；comfy.org/workflows 在线浏览；PyPI 包 comfyui-workflow-templates
   * [ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿](07-advanced-workflows/2026-08-26-comfyui-manga-storyboard-workflow.md)
   * [ComfyUI+Dify自动化：从一句话到批量出图，搭建你的AI内容工厂](07-advanced-workflows/2026-08-30-comfyui-dify-automation-content-factory.md) — Dify编排+ComfyUI执行，三个场景：智能提示词→批量分镜→全自动短剧生产线；含API对接、角色一致性、kt-ai-Studio开源实现
   * [ComfyUI实战营收官：把14篇技能串成流水线，一个人就是一个内容团队](07-advanced-workflows/2026-08-28-comfyui-fullstack-content-factory.md) — AI全栈内容工厂七环节全链路拆解、双轨并行模式、L1→L3升级路径、开源工具推荐
