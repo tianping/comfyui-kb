@@ -75,6 +75,7 @@
 
 ### 七、高级工作流
 - [ComfyUI 短剧工作流模板库：5 个开箱即用的工作流](07-advanced-workflows/short-drama-workflow-templates.md) — 角色一致性（IP-Adapter+LoRA参数）/批量分镜/Prompt List/Wan2.2·H3·LTX三方案图生视频/修复流水线（去闪→超分→插帧→口型）/多角色同框三方案
+- [ComfyUI 官方模板库 workflow_templates 开源：449 个工作流带模型清单](07-advanced-workflows/2026-10-27-comfy-org-workflow-templates-repo.md) — Comfy-Org 官方模板源头仓库：每个模板带模型清单与存放目录、节点版本要求、MarkdownNote 文档；子图蓝图需前端≥1.27.7；CI 校验；comfy.org/workflows 在线浏览；PyPI 包 comfyui-workflow-templates (2026-10-27)
 - [ComfyUI 漫画分镜完整流程：从一句梗概到多格成稿](07-advanced-workflows/2026-08-26-comfyui-manga-storyboard-workflow.md) — 角色参考卡+IP-Adapter锁脸+ControlNet控构图+固定模型配方保风格，批量生图筛选与分镜Prompt模板
 - [ComfyUI+Dify自动化：从一句话到批量出图，搭建你的AI内容工厂](07-advanced-workflows/2026-08-30-comfyui-dify-automation-content-factory.md) — Dify编排+ComfyUI执行，三个场景：智能提示词→批量分镜→全自动短剧生产线；含API对接、角色一致性、kt-ai-Studio开源实现
 - [ComfyUI实战营收官：把14篇技能串成流水线，一个人就是一个内容团队](07-advanced-workflows/2026-08-28-comfyui-fullstack-content-factory.md) — AI全栈内容工厂七环节全链路拆解（选题→脚本→分镜→出图→视频→后期→发布）、双轨并行模式、L1→L3升级路径、开源工具推荐
@@ -101,6 +102,7 @@
 
 | 分类 | 笔记 | 来源数 |
 |------|------|--------|
+| 07-advanced-workflows | ComfyUI 官方模板库 workflow_templates 开源：449 个工作流带模型清单 | 1 |
 | 04-advanced-image | 角色一键 Q 化：Any2Qcartoon LoRA（Qwen-Image-Edit-2511） | 1 |
 | 07-advanced-workflows | Comfy Agent 实战：一个人 3 天做完 4 分钟动画短片《YUI》 | 1 |
 | 01-basics | ComfyUI 正在成为「AI 内容操作系统」（生态趋势观点） | 1 |
@@ -161,5 +163,3 @@
 - **内容冲突**：标注冲突，留给用户判断
 
 - [ComfyUI v0.35.0：视频剪辑进工作流，H3 Max、3D 全收进节点（龙行AI实验室第21篇）](04-advanced-image/2026-09-14-comfyui-v0.35-video-trim-h3-max-3d.md) — v0.35.0（2026-09-09）三大块：原生视频剪辑 VideoTrim/VideoCrop（#15637）+ 官方 H3 Max/Max Turbo 进节点（#16025/#16094，走官方 API 别和社区 LoRA 混）+ 3D 网格 File3DToMesh（GLB/GLTF/OBJ/STL #15919）+ TRELLIS 降显存；4060 跑长视频试 Sparse Attention；日期坑：v0.34.0=08-26，v0.35.0=09-09 (2026-09-14)
-
-- [ComfyUI 官方模板库 workflow_templates 开源：449 个工作流带模型清单](07-advanced-workflows/2026-10-27-comfy-org-workflow-templates-repo.md) — Comfy-Org 官方模板源头仓库：每个模板带模型清单与存放目录、节点版本要求、MarkdownNote 文档；子图蓝图需前端≥1.27.7；CI 校验；comfy.org/workflows 在线浏览；PyPI 包 comfyui-workflow-templates (2026-10-27)
