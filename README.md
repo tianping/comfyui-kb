@@ -89,6 +89,7 @@
 - 视频批处理自动化工作流
 
 ### 八、环境与部署
+- [ComfyUI 成了 ChatGPT 官方插件：云端插件 vs 本地 comfy-mcp 怎么选](08-deployment/2026-11-09-comfy-cloud-chatgpt-plugin-vs-local-mcp.md) — @Comfy Cloud 出图出视频，跑在官方 96GB 云卡、需订阅（Standard $20/月，送 5 次），网页端连不到本地；<8GB/Mac 走云端，≥24GB 装本地 comfy-mcp 接 Claude Code/Codex；四步安装与 COMFY_BIN 坑
 - [ComfyUI 0.31 本地视频商用方案：DGX+NAS部署](08-deployment/comfyui-031-local-video-deployment.md) — 0.31核心更新、本地视频五大流派(MiniMax H3/Wan Animate 2/Wan 2.2 MoE/LTX-2/云端API)、2026静态绘图模型格局、DGX Spark+QNAP NFS算力存储分离架构
 - [ComfyUI 手动安装自定义节点教程](08-deployment/custom-node-manual-install.md) — 三种手动安装方式、依赖安装核心坑点、为何弃手动改用 Manager
 - 本地安装与配置(Windows / Linux / Mac)
@@ -103,6 +104,7 @@
 
 | 分类 | 笔记 | 来源数 |
 |------|------|--------|
+| 08-deployment | ComfyUI 成了 ChatGPT 官方插件：云端插件 vs 本地 comfy-mcp 怎么选 | 1 |
 | 06-models | ComfyUI 原生接入 Trellis.2 与 Pixal3D：零依赖本地 3D 生成，6G 显存可跑 | 1 |
 | 07-advanced-workflows | ComfyUI 官方模板库 workflow_templates 开源：449 个工作流带模型清单 | 1 |
 | 04-advanced-image | 角色一键 Q 化：Any2Qcartoon LoRA（Qwen-Image-Edit-2511） | 1 |

@@ -52,6 +52,7 @@
   * [ComfyUI + SD 3.5 对比实测：它真的比 SDXL 强吗？](06-models/2026-08-26-sd35-comfyui-comparison.md)
 
 * 八、环境与部署
+  * [ComfyUI 成了 ChatGPT 官方插件：云端插件 vs 本地 comfy-mcp 怎么选](08-deployment/2026-11-09-comfy-cloud-chatgpt-plugin-vs-local-mcp.md) — @Comfy Cloud 出图出视频，跑在官方 96GB 云卡、需订阅（Standard $20/月，送 5 次），网页端连不到本地；<8GB/Mac 走云端，≥24GB 装本地 comfy-mcp 接 Claude Code/Codex；四步安装与 COMFY_BIN 坑
   * [ComfyUI 0.31 本地视频商用方案：DGX+NAS部署](08-deployment/comfyui-031-local-video-deployment.md)
   * [ComfyUI 手动安装自定义节点教程](08-deployment/custom-node-manual-install.md)
 
